@@ -13,8 +13,7 @@ p{
   padding: 10px;
 }
 #wrapper{
-  width: 925px;
-  outline: 1px dotted yellow;
+  width: 1072px;
   background-color: yellow;
 }
 #header{
@@ -22,23 +21,21 @@ background-color: #f7f7f7;
 padding: 15px 0 15px 25px;
 }
 #header h1{
-width: 350px;
-outline: 1px dotted red;
+width: 450px;
 display: inline-block;
 }
 #header h2{
-width: 500px;
-outline: 1px dotted red;
+width: 550px;
 display: inline-block;
 text-align: right;
 }
 #main_content{
- background: radial-gradient(gray, black);
- padding: 25px;
+ background: radial-gradient(#6f5964, black);
+ padding: 25px 0 25px 25px;
  vertical-align: top;
 }
 #subcontent_container_bio img{
-  width: 400px;
+  width: 450px;
   display: inline-block;
   border: 5px solid gray;
   margin-right: 25px;
@@ -49,12 +46,12 @@ margin-bottom: 25px;
 .subcontent_about{
   display: inline-block;
   vertical-align: top;
-  height: 273px;
+  height: 306px;
   background-image: linear-gradient(to bottom right,#fffeff,#daccd9);
 }
 .subcontent_about h3{
   background-color: gray;
-  width: 415px;
+  width: 511px;
   color: white;
   font-weight: 900;
   padding: 10px;
@@ -67,7 +64,8 @@ vertical-align: top;
 #subcontent_container_main .subcontent_container_main_block{
   width: 165px;
   display: inline-block;
-  background-color: yellow;
+  /*background-color: yellow;*/
+  margin-right: 181px;
 }
 .subcontent_title{
   color: white;
@@ -107,7 +105,8 @@ vertical-align: top;
   text-align: center;
 }
 span{
-  color: #ffffff;
+  font-style: italic;
+  text-decoration: underline;
 }
 #footer{
 width: 100%;
