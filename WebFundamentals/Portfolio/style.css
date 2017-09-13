@@ -59,7 +59,7 @@ margin-bottom: 25px;
   background-image: linear-gradient(#b4b4b8,#878593,#b4b4b8);
 }
 .subcontent_about p{
-width: 415px;
+width: 511px;
 vertical-align: top;
 }
 #subcontent_container_main .subcontent_container_main_block{
@@ -89,13 +89,14 @@ vertical-align: top;
   display: inline-block;
   background-image: linear-gradient(to bottom right,#fffeff,#daccd9);
 }
-#subcontent_container_main .subcontent_body img{
+.subcontent_container_main_block .subcontent_body img{
   width: 45px;
   margin: 5px;
+  display: inline-block;
 }
-#subcontent_container_main img{
+.subcontent_container_main_block img{
   width: 320px;
-  /*border: 0;*/
+  display: block;
 }
 .technologies_button{
   text-align: center;
