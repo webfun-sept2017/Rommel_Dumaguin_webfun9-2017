@@ -3,19 +3,14 @@
  padding: 0px;
  font-family: arial,sans-serif;
  color: black;
- /*outline: 1px dotted red;*/
 }
 #wrapper{
   width: 970px;
   height: 970px;
   background-color: white;
 }
-#header{
-  /*height: 125px;*/
-}
 #header img{
   width: 75px;
-  /*display: inline-block;*/
   position: absolute;
 }
 #header h1{
@@ -23,7 +18,6 @@
   font-weight: normal;
   font-size: 35px;
   margin: 20px 0 2px 80px;
-  /*vertical-align: middle;*/
 }
 #header span{
   color: darkblue;
@@ -31,7 +25,6 @@
 #header h2{
   font-weight: normal;
   color: white;
-  /*height: 50px;*/
   background: #4f81ab; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(#25669f,#4f81ab,#25669f); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#25669f,#4f81ab,#25669f); /* For Opera 11.1 to 12.0 */
@@ -88,7 +81,6 @@ button.more_resources{
   width: 150px;
   background-color: orange;
   margin-bottom: 20px;
-  /*border-bottom: 1px solid black;*/
   font-size: 12px;
 }
 #learn_more_banner{
@@ -103,13 +95,7 @@ button.more_resources{
   background-image: url(../images/ad_background.png);
   background-size: 300px;
   height: 300px;
-  /*background-position: center;*/
 }
-/*#learn_more_banner img.ad{
-  width: 300px;
-  margin-top: 20px;
-  position: absolute;
-}*/
 #learn_more_banner h3{
   color: white;
   position: relative;
@@ -125,15 +111,6 @@ img.ninja{
   display: block;
   margin: 15px auto 20px auto;
 }
-/*#learn_more_banner img{
-  margin: auto;
-}*/
-/*.test{
-  width: 50px;
-  height: 50px;
-  background-color: black;
-  margin: 0 auto;
-}*/
 button.learn_more{
   width: 135px;
   height: 25px;
@@ -164,9 +141,7 @@ button.learn_more span{
 #main_content img.house{
   width: 15px;
   display: inline-block;
-
 }
-
 #main_content img.phone{
   width: 35px;
   margin-left: 350px;
@@ -191,15 +166,9 @@ button.learn_more span{
 .contact_info p{
   font-size: 10px;
 }
-/*.contact_info span{
-  font-weight: bold;
-  font-size:
-}*/
-
 .main_content_body{
   width: 750px;
   display: block;
-  /*background-color: gray;*/
 }
 .main_content_body ul{
   margin-left: 25px;
@@ -239,21 +208,4 @@ button.learn_more span{
 .big3_info p{
   padding: 5px 0;
   font-size: 13px;
-}
-
-/*.body{
-height: 500px;
-background-color: #245176;
-}*/
-/*#main_content{
-  height: 300px;
-  width: 100%;
-  border-bottom: 3px solid #183853;
-}*/
-.navbar{
-  background: #487fac; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#3576ad,#487fac,#3576ad); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#3576ad,#487fac,#3576ad); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#3576ad,#487fac,#3576ad); /* For Firefox 3.6 to 15 */
-  background-image: linear-gradient(#3576ad,#487fac,#3576ad);
 }
