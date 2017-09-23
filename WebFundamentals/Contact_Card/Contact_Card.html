@@ -14,10 +14,8 @@
 
         $('form').submit(function(){
 
-          $('#right_content').append('<div class="contact_card"><h1>' + $('#first_name').val() + ' ' + $('#last_name').val() + '</h1><h5 style display='none'>' + $('#description').val() + '</h5>' + '<span>Click here for a description!</span>' + '</div>');
+          $('#right_content').append('<div class="contact_card"><h1>' + $('#first_name').val() + ' ' + $('#last_name').val() + '</h1><h5 id="hidden">' + $('#description').val() + '</h5>' + '<h5>Click here for a description!</h5>' + '</div>');
           // Add Name and description
-          ('h5').hide();
-          // Hide description, leaving '<span>Click here for a description!</span>'
 
           this.reset();
           return false;
@@ -25,8 +23,7 @@
 
         $(document).on('click', '.contact_card', function(){
           // alert(this);
-          $(this).children('span').hide();
-          $(this).children('h5').show();
+          $(this).children('h5').toggle();
         })
 
       }) // end of $(document).ready(function(){

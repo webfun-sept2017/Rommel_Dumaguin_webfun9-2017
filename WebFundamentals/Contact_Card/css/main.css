@@ -32,6 +32,9 @@ input.text{
 p{
   padding: 10px 0;
 }
+h5#hidden {
+  display: none;
+}
 textarea{
   width: 350px;
   height: 100px;
