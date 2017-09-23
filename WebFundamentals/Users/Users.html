@@ -13,11 +13,11 @@
         // alert("jQuery is set!");
 
         $('form').submit(function(){
-          var firstName = $('#first_name').val();
-          var lastName = $('#last_name').val();
-          var email = $('#email').val();
-          var contact = $('#contact').val();
-          $('#myTable').append('<tr><td>' + firstName + '</td><td>' + lastName + '</td><td>' + email + '</td><td>' + contact + '</td></tr>');
+          // var firstName = $('#first_name').val();
+          // var lastName = $('#last_name').val();
+          // var email = $('#email').val();
+          // var contact = $('#contact').val();
+          $('#myTable').append('<tr><td>' + $('#first_name').val() + '</td><td>' + $('#last_name').val() + '</td><td>' + $('#email').val() + '</td><td>' + $('#contact').val() + '</td></tr>');
           this.reset();
           return false;
         });
