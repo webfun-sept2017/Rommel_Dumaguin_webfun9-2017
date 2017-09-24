@@ -8,29 +8,29 @@
       var MINUTE = 50;
       var PERIOD = "AM";
       function period(x){
-        if (x = "AM") {
+        console.log(x);
+        if (x == "AM") {
           return "in the morning.";
         }
-        else if (x = "PM") {
+        else if (x == "PM") {
           return "in the evening.";
         }
       }
       if (MINUTE > 30) {
-        console.log("It's almost " + (HOUR + 1) + " " + period("AM"));
+        console.log("It's almost " + (HOUR + 1) + " " + period(PERIOD));
       }
       else {
-        console.log("It's just after " + HOUR + " " + period("AM"));
+        console.log("It's just after " + HOUR + " " + period(PERIOD));
       }
 
       HOUR = 7;
       MINUTE = 15;
       PERIOD = "PM";
-
       if (MINUTE > 30) {
-        console.log("It's almost " + (HOUR + 1) + " " + period("AM"));
+        console.log("It's almost " + (HOUR + 1) + " " + period(PERIOD));
       }
       else {
-        console.log("It's just after " + HOUR + " " + period("AM"));
+        console.log("It's just after " + HOUR + " " + period(PERIOD));
       }
     </script>
   </head>
