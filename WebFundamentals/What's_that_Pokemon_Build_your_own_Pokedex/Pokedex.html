@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>What's_that_Pokemon_Build_your_own_Pokedex</title>
+    <title>Your Very Own Weather Forecast App!</title>
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript">
@@ -17,14 +17,13 @@
             // alert('test')
             // console.log();
           }
-
         })
 
         $(document).on('click', 'img', function(){
           $('#PokemonData').empty();
           var clickedPokemonID = $(this).attr('id');
 
-          $.get(`http://pokeapi.co/api/v1/pokemon/${clickedPokemonID}/`, function(res) {
+          $.get(`https://pokeapi.co/api/v1/pokemon/${clickedPokemonID}/`, function(res) {
               console.log(res);
               // console.log(res.name);
               // console.log(res.height);
@@ -52,5 +51,5 @@
 
     </div>
   </body>
-  <!-- What's that Pokemon? Build Your Own Pokedex. What's that Pokemon? Build Your Own Pokedex -->
+  <!-- Your Very Own Weather Forecast App! -->
 </html>
